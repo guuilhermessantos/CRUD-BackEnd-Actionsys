@@ -1,0 +1,17 @@
+
+{
+  "name": "default",
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "@Guilherme99",
+  "database": "actionsys",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["./src/app/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
